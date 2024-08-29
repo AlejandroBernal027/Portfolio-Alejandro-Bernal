@@ -1,0 +1,154 @@
+body {
+    margin: 0px;
+    width: 100%;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2A272F;
+    color: white;
+    text-align: center;
+    height: 16%;
+}
+
+header>h1 {
+    margin: 0px;
+    font-size: 49px;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    height: 84%;
+    background-color: #A8A2B2;
+}
+
+#sliderImagenes {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.flechaCambiarImagen {
+    width: 40px;
+    height: 46px;
+}
+
+#imagenesJuego {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#imagenPrincipal {
+    display: flex;
+    align-items: center;
+}
+
+#imagenCentral {
+    width: 300px;
+    height: 300px;
+    padding: 0px 3%;
+}
+
+#imagenesSecundarias {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10% 0px 0px 0px;
+}
+
+#imagenesSecundarias>img {
+    padding: 0% 4%;
+    width: 90px;
+    height: 90px;
+}
+
+#imagenesSecundarias>img:first-child{
+    padding-left: 10%;
+}
+
+#Descripcion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+#Descripcion>p {
+    margin: 0%;
+    width: 80%;
+    font-size: 18px;
+    text-align: center;
+    padding: 4.5% 0px;
+}
+
+#Descripcion>p:last-child{
+    padding-bottom: 10%;
+}
+
+@media (max-width: 1440px){
+    #Descripcion>p {
+        margin: 0%;
+        width: 90%;
+        font-size: 18px;
+    }
+
+    #Descripcion>p:last-child{
+        padding-bottom: 0%;
+    }
+}
+
+@media (max-width: 950px){
+    main {
+        flex-direction: column-reverse;
+        overflow-y: auto;
+    }
+
+    #sliderImagenes {
+        width: 100%;
+    }
+
+    #imagenesSecundarias>img {
+        padding: 2% 4%;
+        width: 90px;
+        height: 90px;
+    }
+
+    #Descripcion {
+        width: 100%;
+    }
+
+    #Descripcion>p:last-child{
+        padding-bottom: 10%;
+    }
+}
+
+@media (max-width: 450px){
+    header>h1 {
+        font-size: 39px;
+    }
+
+    #imagenCentral {
+        width: 200px;
+        height: 200px;
+        padding: 0px 3%;
+    }
+
+    #imagenesSecundarias>img {
+        padding: 2% 2%;
+        width: 65px;
+        height: 65px;
+    }
+
+    .flechaCambiarImagen {
+        width: 20px;
+        height: 23px;
+    }
+}

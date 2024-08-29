@@ -1,0 +1,295 @@
+body {
+    /* width: 100%; */
+    height: 100vh;
+    margin: 0px;
+    background-image: url("../img/FondoInicio.png");
+    background-size: 100% 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    color: #2A272F;
+    justify-content: space-between;
+    height: 10%;
+}
+
+#logoTitulo {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+}
+
+#logoTitulo img {
+    margin: auto 0px;
+    padding-left: 15%;
+    height: 75px;
+    width: 75px;
+}
+
+#logoTitulo a {
+    display: flex;
+    text-decoration: none;
+    color: #2A272F;
+    width: 100%;
+}
+
+#logoTitulo h3 {
+    display: flex;
+    margin: auto 0px;
+    padding-left: 10%;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+nav {
+    display: flex;
+    width: 70%;
+}
+
+nav>ul {
+    display: flex;
+    list-style: none;
+    justify-content:space-around;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+nav>ul>li {
+    display: flex;
+    margin: 0px;
+    width: 100%;
+    background-color: #A582EE;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+nav>ul>li>a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+    background-color: #7843E6;
+    color: white;
+    padding: 0px 0.5%;
+    height: 100%;
+    width: 100%;
+}
+
+nav>ul>li>a:hover {
+	animation: myfirst 2s linear 0s infinite;
+}
+
+@keyframes myfirst {
+  0%   {background-color:#7843E6;}
+  25%  {background-color:#A582EE;}
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: white;
+    color: #2A272F;
+    align-items: center;
+    text-align: center;
+    height: 12.5%;
+}
+
+#contactoFooter>p{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contactoFooter>p:first-child {
+    margin: 3% 0px 0px 0px;
+}
+
+#contactoFooter>p:last-child {
+    margin: 0px;
+}
+
+#redesSociales {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 20%;
+}
+
+@media (max-width: 1440px) {
+    #logoTitulo h3 {
+        font-size: 25px;
+    }
+    
+    #logoTitulo img {
+        width: 70px;
+        height: 70px;
+    }
+
+    nav>ul>li {
+        font-size: 28px;
+    }
+    
+    nav>ul>li>a {
+        font-size: 28px;
+    }
+
+    #redesSociales img {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+@media (max-width: 950px){
+/* Header */
+    header{
+        display: flex;
+        flex-direction: row;
+        height: 10%;
+    }
+
+    #logoTitulo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 15%;
+    }
+
+    #logoTitulo a {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #logoTitulo img {
+        width: 65px;
+        height: 65px;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    #logoTitulo h3 {
+        display: none;
+    }
+    
+    nav {
+        display: flex;
+        height: 100%;
+        width: 100%;
+    }
+    
+    nav>ul>li {
+        font-size: 26px;
+    }
+    
+    nav>ul>li>a {
+        font-size: 26px;
+    }
+
+/* Footer */
+
+    footer {
+        height: 10%;
+    }
+
+    #contactoFooter>p{
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+@media (max-width: 650px){
+    /* Header */
+    
+    header{
+        height: 8%;
+    }
+        
+    #logoTitulo img {
+        height: 60px;
+        width: 60px;
+    }
+     
+    nav>ul>li {
+        font-size: 20px;
+    }
+
+    nav>ul>li>a {
+        font-size: 20px;
+    }
+
+    footer {
+        height: 8%;
+    }
+
+    #contactoFooter>p{
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #redesSociales img {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+@media (max-width:450px){
+    header{
+        display: flex;
+        flex-direction: column;
+        height: 12.5%;
+    }
+
+    #logoTitulo {
+        width: 100%;
+    }
+
+    #logoTitulo img {
+        display: none;
+    }
+
+    nav>ul>li {
+        font-size: 11px;
+    }
+
+    nav>ul>li>a {
+        font-size: 11px;
+        padding: 0px 5px;
+    }
+
+    #logoTitulo h3 {
+        display: flex;
+        text-align: center;
+        font-size: 25px;
+        width: 100%;
+        padding: 2% 0px;
+        justify-content: center;
+    }
+
+    footer {
+        height: 7.5%;
+    }
+
+    #contactoFooter>p{
+        font-size: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #redesSociales {
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+    <title>Juegos de mesa</title>
+    <link rel="stylesheet" type="text/css" href="css/headerBodyYFooter.css">
+    <link rel="stylesheet" type="text/css" href="css/JuegosDeMesa.css">
+</head>
+<body>
+    <header>
+        <div id="logoTitulo">
+            <a href="Inicio.html">
+                <img src="img/Logo.png" alt="Logo de Drinks & Dices">
+                <h3>Drinks & Dices</h3>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li>Juegos</li>
+                <li><a href="ERROR404.html">Bebidas</a></li>
+                <li><a href="ERROR404.html">Local</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+                <li><a href="Reserva.html">Reserva</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="infoYFiltros">
+            <div id="info">
+                <h2>Nuestros juegos</h2>
+                <p>Tenemos todos estos juegos para que los uséis en el local. Si queréis, podéis traeros el vuestro.</p>
+            </div>
+            <div id="filtros">
+                <h3>Buscador</h3>
+                <div class="campoFiltro">
+                    <label>Nombre:</label>
+                    <input type="text" id="nombreJuego">
+                </div>
+                <div class="campoFiltro">
+                    <label>Nº de jugadores:</label>
+                    <input type="number" id="NJugadores" min="0">
+                </div>
+                <div class="campoFiltro">
+                    <label>Género:</label>
+                    <select id="genero">
+                        <option value="0">- Selecciona una opción -</option>
+                    </select>
+                </div>
+                <button>Buscar</button>
+            </div>
+        </div>
+        <div id="contenidoPrincipal">
+            <div class="juegoMesa" onclick="openGameInfo()">
+                <img src="img/DisneyVillain.png">
+                <p>Disney's Villainous</p>
+            </div>
+            <div class="juegoMesa">
+                <img src="img/DiXit.png">
+                <p>DiXit</p>
+            </div>
+            <div class="juegoMesa">
+                <img src="img/MunchkinDung.png">
+                <p>Munchkin Dungeon</p>
+            </div>
+            <div class="juegoMesa">
+                <img src="img/Catan.png">
+                <p>Catán</p>
+            </div>
+            <div class="juegoMesa">
+                <img src="img/Mysterium.png">
+                <p>Mysterium</p>
+            </div>
+            <div class="juegoMesa">
+                <img src="img/ExpKittens.png">
+                <p>Exploding Kittens</p>
+            </div>
+            <div class="juegoMesa">
+                <img src="img/WDYM.png">
+                <p>What Dou You Meme?</p>
+            </div>
+            <div class="juegoMesa">
+                <img src="img/CardsAgaHum.png">
+                <p>Cards Against Humanity</p>
+            </div>
+            <div class="juegoMesa">
+                <img src="img/HombreLobo.png">
+                <p>Hombres lobo de Castronegro</p>
+            </div>
+            <div class="juegoMesa">
+                <img src="img/SilenzeZC.png">
+                <p>Silenze Zombie City</p>
+            </div>
+            <div class="juegoMesa">
+                <img src="img/Virus.png">
+                <p>Virus</p>
+            </div>
+            <div class="juegoMesa">
+                <img src="img/SushiGo.png">
+                <p>Sushi Go!</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div id="contactoFooter">
+            <p>Telefono: 622064850</p>
+            <p>Email: drinksanddices@gmail.com</p>
+        </div>
+        <div id="redesSociales">
+            <a href="ERROR404.html"><img src="img/TwitterN.png" alt="Logo de twitter"></a>
+            <a href="ERROR404.html"><img src="img/FacebookN.png" alt="Logo de Facebook"></a>
+            <a href="ERROR404.html"><img src="img/InstagramN.png" alt="Logo de Instagram"></a>
+            <a href="ERROR404.html"><img src="img/TiktokN.png" alt="Logo de Tiktok"></a>
+        </div>
+    </footer>
+    <script src="js/JuegosDeMesa.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+main {
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    color: white;
+    height: 77.5%;
+    overflow-y: auto;
+}
+
+main>h1 {
+    display: flex;
+    width: 65%;
+    text-align: center;
+    margin: 0px;
+    font-size: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 1440px) {
+    main>h1 {
+        font-size: 80px;
+    }
+}
+
+@media (max-width: 950px){
+    main {
+        height: 80%;
+    }
+    
+    main>h1 {
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 650px){
+    main {
+        height: 84%;
+    }
+    
+    main>h1 {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 450px){
+    main {
+        height: 80%;
+    }
+    
+    main>h1 {
+        font-size: 50px;
+        width: 80%;
+    }
+}

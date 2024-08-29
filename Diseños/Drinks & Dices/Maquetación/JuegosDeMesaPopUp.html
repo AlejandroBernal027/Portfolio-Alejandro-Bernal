@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup</title>
+    <link rel="stylesheet" type="text/css" href="css/Popup.css">
+</head>
+<body>
+    <header>
+        <h1>Disney’s Villainous</h1>
+    </header>
+    <main>
+        <div id="sliderImagenes">
+            <div id="imagenesJuego">
+                <div id="imagenPrincipal">
+                    <img src="img/LeftArrow.png" class="flechaCambiarImagen" onclick="prevImg()" id="izq">
+                    <img src="img/ImagenCentral.png" alt="Imagen principal" id="imagenCentral">
+                    <img src="img/RightArrow.png" class="flechaCambiarImagen" onclick="nextImg()" id="der">
+                </div>
+                <div id="imagenesSecundarias">
+                    <img src="img/ImagenJuego1.png" onclick="changeImgBottom(this.id)" id="0" alt="Imagen de juego 1">
+                    <img src="img/ImagenJuego2.png" onclick="changeImgBottom(this.id)" id="1" alt="Imagen de juego 2">
+                    <img src="img/ImagenJuego3.png" onclick="changeImgBottom(this.id)" id="2" alt="Imagen de juego 3">
+                    <img src="img/ImagenJuego4.png" onclick="changeImgBottom(this.id)" id="3" alt="Imagen de juego 4">
+                </div>
+            </div>
+        </div>
+
+        <div id="Descripcion">
+            <p>En esta épica lucha de poderes malignos, asumirás el papel de un Villano Disney y tendrás que tratar de alcanzar tu propio objetivo maquiavélico.</p>
+            <p>Descubre las habilidades únicas de tu personaje y su estrategia ganadora, aprovechando al mismo tiempo los giros del destino para frustrar los planes de tus oponentes ¿Quién triunfará sobre las fuerzas del bien y se hará con la victoria?</p>
+            <p>Este juego es ideal para los fans de Disney.
+                Ya sea que estés jugando con un grupo de fans dedicados de Disney,  jugadores de estrategia clásicos o con tu familia, 
+                Disney Villainous es perfecto para cualquier ocasión de noche de juego.</p>
+            <p>Nº de jugadores: 2 a 6 (hasta 9 con expansión)</p>
+        </div>
+    </main>
+
+    <script src="js/Popup.js"></script>
+</body>
+</html>
