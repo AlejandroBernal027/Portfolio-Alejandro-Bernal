@@ -7,7 +7,7 @@
     <ul>
       <li>IndieCove: una aplicación web donde se compran y descargan videojuegos independientes</li>
     </ul>
-    <li>- Diseños de aplicaciones web</li>
+    <li>- Diseños de aplicaciones web -</li>
     <ul>
       <li>Drinks & Dices: este diseño es para el proyecto de empresa de la asignatura Empresa e Iniciativa Emprendedora</li>
     </ul>
