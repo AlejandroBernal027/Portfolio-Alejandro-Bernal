@@ -7,7 +7,6 @@ Esta aplicación sirve para comprar, descargar y vender videojuegos independient
 	* Usuario administrador, este usuario puede administrar a otros usuarios.
 
 Con el proyecto se busca que los equipos de desarrolladores de videojuegos pequeños tengan un punto de partida para publicar sus juegos y darse a conocer.
-El diseño final de la aplicación es el prototyping de la aplicación.
 
 ## Tecnologías usadas
 ### Frontend
