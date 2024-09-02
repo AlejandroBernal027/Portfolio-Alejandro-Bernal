@@ -8,6 +8,12 @@ Esta aplicación sirve para comprar, descargar y vender videojuegos independient
 
 Con el proyecto se busca que los equipos de desarrolladores de videojuegos pequeños tengan un punto de partida para publicar sus juegos y darse a conocer.
 
+## Diseño de la aplicación
+
+El diseño final de la aplicación web es el prototipado, puede verse en el documento "Prototyping de IndieCove.pdf" o en Figma mediante este [enlace a Figma](https://www.figma.com/design/TryuxuEIkyrfE0I0ShqNYc/IndieCove?node-id=52-5097&node-type=CANVAS&t=iPVecWpfZ24AAGaH-0).
+
+Si quiere ver los bocetos y esquemas de la aplicación web, se encuentran en la carpeta "Diseños".
+
 ## Tecnologías usadas
 ### Frontend
 	
@@ -140,8 +146,3 @@ Ahora, para ver la aplicación tienes que desplegar la aplicación en local.
 4. Para desplegar el frontend primero tienes que instalar las dependencias, para ello haz el comando "npm i". Una vez hecho el comando anterior haz introduce el comando "ng serve".
 5. Después de hacer el comando "ng serve", ve a la URL que indica el terminal, seguramente será "localhost:4200".
 6. En cuanto entres a la URL ya estás dentro de la aplicación para usarla como veas.
-
-### Información adicional
-El diseño final de la aplicación web es el prototipado, puede verse en el documento "Prototyping de IndieCove.pdf" o en Figma mediante este [enlace](https://www.figma.com/design/TryuxuEIkyrfE0I0ShqNYc/IndieCove?node-id=52-5097&node-type=CANVAS&t=iPVecWpfZ24AAGaH-0)
-
-De los bocetos a los prototipos han habido varios cambios considerables, esto es debido a que originalmente la información de la aplicación web no iba a ser muy legible por los usuarios, así que es hicieron los cambios necesarios para remediar ese problema.
