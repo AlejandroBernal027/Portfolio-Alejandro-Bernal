@@ -12,7 +12,7 @@ Con el proyecto se busca que los equipos de desarrolladores de videojuegos peque
 
 El diseño final de la aplicación web es el prototipado, puede verse en el documento "Prototyping de IndieCove.pdf" o en Figma mediante este [enlace a Figma](https://www.figma.com/design/TryuxuEIkyrfE0I0ShqNYc/IndieCove?node-id=52-5097&node-type=CANVAS&t=iPVecWpfZ24AAGaH-0).
 
-Si quiere ver los bocetos y esquemas de la aplicación web, se encuentran en la carpeta "Diseños".
+Si quiere ver los bocetos y esquemas de la aplicación web, se encuentran en la carpeta "Diseño".
 
 ## Tecnologías usadas
 ### Frontend
