@@ -130,7 +130,7 @@ function Portfolio() {
   return <div>
     <div id='portfolioHeader'>
       <h1>Portfolio</h1>
-      <a href="" title='Enlace a Github' target='_blank'><img src={GithubImg} alt="Enlace a Github" /></a>
+      <a href="https://github.com/AlejandroBernal027/Portfolio-Alejandro-Bernal/tree/main/Aplicaciones%20Web/portfolio" title='Enlace a Github' target='_blank'><img src={GithubImg} alt="Enlace a Github" /></a>
       <a href="https://www.figma.com/design/NKhIZTxr9hrpN7z03Flmvj/Portfolio?node-id=32-175&t=BduPZH9qF9HvR8IX-0" title='Enlace a Figma' target='_blank'><img src={FigmaImg} alt="Enlace a Figma" /></a>
     </div>
     <div id='portfolioContent'>
