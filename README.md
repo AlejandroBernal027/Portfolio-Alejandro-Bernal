@@ -6,6 +6,8 @@
     <li><b>Aplicaciones web</b></li>
     <ul>
       <li>IndieCove: una aplicación web donde se compran y descargan videojuegos independientes. Usa Angular para el frontend, Symfony para el backend y MariaDB para la base de datos.</li>
+      <li>Portfolio: una aplicación para que sea más accesible poder ver todos los proyectos realzados junto a sus tecnologías.
+      </li>
     </ul>
     <br>
     <li><b>Diseños de aplicaciones web</b></li>
